@@ -1,5 +1,6 @@
 # EPD
 A WPF and ASP.NET application made as a school project.
+
 It's a fairly old project, so there are some imperfections.
 
 In order to make it work, you need to go into \EvidencePracovniDobyOfficial\API in terminal, and type: dotnet ef database update
