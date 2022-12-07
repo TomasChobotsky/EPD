@@ -1,0 +1,17 @@
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\bin\Debug\net5.0-windows\ModalControl.deps.json
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\bin\Debug\net5.0-windows\ModalControl.dll
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\bin\Debug\net5.0-windows\ModalControl.pdb
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.csproj.AssemblyReference.cache
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl_MarkupCompile.cache
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl_MarkupCompile.lref
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\Themes\Generic.baml
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.g.resources
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.GeneratedMSBuildEditorConfig.editorconfig
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.AssemblyInfoInputs.cache
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.AssemblyInfo.cs
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.csproj.CoreCompileInputs.cache
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.dll
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ref\ModalControl.dll
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\obj\Debug\net5.0-windows\ModalControl.pdb
+X:\Programus\EvidencePracovniDobyOfficial\ModalControl\bin\Debug\net5.0-windows\ref\ModalControl.dll

@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="WPF.Views.CustomerViews.AddCustomerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WPF.Views.CustomerViews"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.Resources >
+            <ResourceDictionary x:Key="Dictionary">
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="../../DefaultDictionary.xaml"/>
+                </ResourceDictionary.MergedDictionaries>
+                <Style TargetType="Border" BasedOn="{StaticResource BaseModalStyle}" />
+            </ResourceDictionary>
+        </Grid.Resources>
+
+        <Border>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="1" VerticalAlignment="Center" Grid.Column="1" Width="200" Content="_Name:" Target="{Binding ElementName=Name}" />
+                <TextBox Grid.Row="1" Grid.Column="3" Width="200" Height="30" Name="Name" Text="{Binding Name}" />
+                
+                <Label Style="{StaticResource BaseModalElementStyle}" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1" Content="_Address:" Target="{Binding ElementName=Address}" />
+                <TextBox Style="{StaticResource BaseModalElementStyle}" Grid.Row="2" Grid.Column="3" Name="Address" Text="{Binding Address}"  />
+                
+                <Label Style="{StaticResource BaseModalElementStyle}" Grid.Row="3" VerticalAlignment="Center" Grid.Column="1" Content="_City:" Target="{Binding ElementName=City}" />
+                <TextBox Style="{StaticResource BaseModalElementStyle}" Grid.Row="3" Grid.Column="3" Name="City" Text="{Binding City}"  />
+                
+                <Label Style="{StaticResource BaseModalElementStyle}" Grid.Row="4" VerticalAlignment="Center" Grid.Column="1" Content="_ZipCode:" Target="{Binding ElementName=ZipCode}" />
+                <TextBox Style="{StaticResource BaseModalElementStyle}" Grid.Row="4" Grid.Column="3" Name="ZipCode" Text="{Binding ZipCode}"  />
+                
+                <Label Style="{StaticResource BaseModalElementStyle}" Grid.Row="5" VerticalAlignment="Center" Grid.Column="1" Content="_IC:" Target="{Binding ElementName=IC}" />
+                <TextBox Style="{StaticResource BaseModalElementStyle}" Grid.Row="5" Grid.Column="3" Name="IC" Text="{Binding IC}"  />
+                
+                <Label Style="{StaticResource BaseModalElementStyle}" Grid.Row="6" VerticalAlignment="Center" Grid.Column="1" Content="_DIC:" Target="{Binding ElementName=DIC}" />
+                <TextBox Style="{StaticResource BaseModalElementStyle}" Grid.Row="6" Grid.Column="3" Name="DIC" Text="{Binding DIC}"  />
+                
+                <Button Style="{StaticResource BaseModalButtonStyle}" Grid.Row="7" Grid.Column="1" Command="{Binding CloseCommand}" Content="Storno" />
+                <Button Style="{StaticResource BaseModalButtonStyle}" Grid.Row="7" Grid.Column="3" Command="{Binding AddCommand}" Content="Add" />
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

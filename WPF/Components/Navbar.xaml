@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="WPF.Components.Navbar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:components="clr-namespace:WPF.Components"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <ContentControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0 0 15 0" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Rectangle x:Name="background"
+                                           Fill="{TemplateBinding Background}"/>
+                                <ContentPresenter
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="background" Property="Opacity" Value="0"/>
+                                <Setter Property="Foreground" Value="#cfcfcf"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="Title" TargetType="Button">
+            <Setter Property="Margin" Value="15 0 0 0" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Rectangle x:Name="background"
+                                           Fill="{TemplateBinding Background}"/>
+                                <ContentPresenter
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="background" Property="Opacity" Value="0"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ContentControl.Resources>
+    <Grid Background="CornflowerBlue">
+        <Border Padding="5">
+            <Grid MouseDown="Grid_MouseDown">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Button Style="{StaticResource Title}" Command="{Binding NavigateHomeCommand}"  Content="Evidence Pracovni Doby" VerticalAlignment="Center" 
+                        HorizontalAlignment="Left" FontSize="20" Grid.Column="0"/>
+                
+                <TextBlock Grid.Column="1" />
+                
+                <Button Content="Activities" Command="{Binding NavigateActivityCommand}" Grid.Column="2"/>
+                <Button Content="Customers" Command="{Binding NavigateCustomerCommand}" Grid.Column="3"/>
+                <Button Content="Projects" Command="{Binding NavigateProjectCommand}" Grid.Column="4"/>
+                <CheckBox Grid.Column="5" IsChecked="{Binding IsChecked}">
+                    <CheckBox.Template>
+                        <ControlTemplate TargetType="CheckBox">
+                            <Grid Background="Transparent">
+                                <Image Source="/Images/Account.png" Width="20" Height="20" />
+                            </Grid>
+                        </ControlTemplate>
+                    </CheckBox.Template>
+                </CheckBox>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

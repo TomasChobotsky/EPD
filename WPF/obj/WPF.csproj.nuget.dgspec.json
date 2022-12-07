@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\Programus\\EvidencePracovniDobyOfficial\\WPF\\WPF.csproj": {}
+  },
+  "projects": {
+    "X:\\Programus\\EvidencePracovniDobyOfficial\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Programus\\EvidencePracovniDobyOfficial\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\tocho\\.nuget\\packages\\",
+        "outputPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tocho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "X:\\Programus\\EvidencePracovniDobyOfficial\\HamburgerControl\\HamburgerControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Programus\\EvidencePracovniDobyOfficial\\HamburgerControl\\HamburgerControl.csproj",
+        "projectName": "HamburgerControl",
+        "projectPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\HamburgerControl\\HamburgerControl.csproj",
+        "packagesPath": "C:\\Users\\tocho\\.nuget\\packages\\",
+        "outputPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\HamburgerControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tocho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "X:\\Programus\\EvidencePracovniDobyOfficial\\WPF\\WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Programus\\EvidencePracovniDobyOfficial\\WPF\\WPF.csproj",
+        "projectName": "WPF",
+        "projectPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\WPF\\WPF.csproj",
+        "packagesPath": "C:\\Users\\tocho\\.nuget\\packages\\",
+        "outputPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tocho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "X:\\Programus\\EvidencePracovniDobyOfficial\\Data\\Data.csproj": {
+                "projectPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\Data\\Data.csproj"
+              },
+              "X:\\Programus\\EvidencePracovniDobyOfficial\\HamburgerControl\\HamburgerControl.csproj": {
+                "projectPath": "X:\\Programus\\EvidencePracovniDobyOfficial\\HamburgerControl\\HamburgerControl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "HamburgerMenu": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SimpleModal.WPF": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

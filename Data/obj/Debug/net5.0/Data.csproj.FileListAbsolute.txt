@@ -1,0 +1,16 @@
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\Data.exe
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\Data.deps.json
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\Data.dll
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\Data.pdb
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.dll
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\ref\Data.dll
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.pdb
+X:\Programus\EvidencePracovniDobyOfficial\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+X:\Programus\EvidencePracovniDobyOfficial\Data\bin\Debug\net5.0\ref\Data.dll
